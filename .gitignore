@@ -1,0 +1,8 @@
+*.o
+*.so
+argv
+outerr
+myenv
+filesort
+catsort
+pipe
