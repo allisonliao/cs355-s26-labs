@@ -11,6 +11,6 @@ int main(int argc, char** argv, char** envp) {
     if (strcmp(str, path) == 0) {
       printf("%s\n", *envp);
     }
-    *envp++;
+    envp++;
   }
 }
