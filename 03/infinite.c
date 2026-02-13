@@ -1,6 +1,6 @@
 #include <unistd.h>
 
 int main() {
-    while (1) pause();
-    return 0;
+  while (1) pause();
+  return 0;
 }
