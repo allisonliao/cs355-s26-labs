@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define ALLOCSIZE 1000  // size of total available space
+#define ALLOCSIZE 1000            // size of total available space
 
 static char allocbuf[ALLOCSIZE];  // our stack for allocating memory
 static char* allocp = allocbuf;   // a pointer to the next free block in memory
